@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gatitos"
+    tools:context=".Activity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/contacto_nombre"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/fecha_nac"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvtelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/telefono"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/email"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/descripcion_contacto"
+        android:textSize="@dimen/tamaño_letra"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEditarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_descripcion"
+        android:text="@string/texto_boton2" />
+
+</LinearLayout>
